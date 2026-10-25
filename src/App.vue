@@ -1,7 +1,7 @@
 <script setup>
-import ChartismoAcademia from './components/SMCAcademy.vue'
+import SMCAcademy from './components/SMCAcademy.vue'
 </script>
 
 <template>
-  <ChartismoAcademia />
+  <SMCAcademy />
 </template>

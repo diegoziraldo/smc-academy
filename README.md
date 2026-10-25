@@ -1,5 +1,24 @@
-# Vue 3 + Vite
+# SMC Academy (Vue 3 + Vite)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Requisitos
+- Node.js 20 o superior recomendado
+- npm
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Desarrollo local
+```bash
+npm install
+npm run dev
+```
+
+## Compilar para publicar
+```bash
+npm run build
+```
+
+La carpeta `dist/` contiene la web lista para publicar.
+
+## Netlify
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+El archivo `public/_redirects` configura el fallback de rutas para Netlify.
